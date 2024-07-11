@@ -27,7 +27,7 @@ output: sarif
 # quiet: true
 # repo-id: bridgecrew/sample-repo
 skip-check:
-  #- CKV2_AWS_12
+  - CKV2_AWS_12
   #- CKV2_AWS_19
   #- CKV_AWS_144
 # skip-fixes: true
